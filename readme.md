@@ -14,7 +14,7 @@ The script downloads the target html page locally if it isn't already present. T
 In your project folder start a scrapy project with an appropriate name. This will create a number of files and subdirectories in your project folder. One of those subdirectories is the spiders folder where this spider will live. The spiders folder will be located 2 levels down from your project folder: your path should look something like this ```project-name/project-name/spiders```. 
 
 ## Step 1: Import packages 
-As with any script, we'll import the packages/libraries we need for the script to run. Here, we're using scrapy, os, datetime, requests, and pandas. 
+The script starts by importing the packages/libraries it needs to run. Here, we're using scrapy, os, datetime, requests, sqlite3 and pandas. 
 
 ## Step 2: Define global variables
 We need to define our current directory, the name of the file we're writing, and the absolute path of the file.
