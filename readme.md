@@ -4,9 +4,6 @@ This repository contains a scrapy spider for downloading the 2024 NBA standings 
 
 The script downloads the target html page locally if it isn't already present. Then, the spider's parse method extracts the standings for all the teams combined using xpath. After isolating and extracting the data, we save it to a pandas dataframe for further processing before printing it to the console and finally saving it to a local database we can query later on. 
 
-# Demo Video
-[![Demo Video - Week 3](https://img.youtube.com/vi/qQVqY4TD5L0/0.jpg)](https://www.youtube.com/watch?v=qQVqY4TD5L0)
-
 
 # Step-by-Step
 
